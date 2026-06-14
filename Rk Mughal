@@ -1,0 +1,95 @@
+<!DOCTYPE html>
+<html lang="ur">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>میری ویب سائٹ</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            margin: 0;
+            padding: 0;
+            text-align: center;
+        }
+
+        header {
+            background: #007bff;
+            color: white;
+            padding: 20px;
+        }
+
+        nav {
+            background: #333;
+            padding: 10px;
+        }
+
+        nav a {
+            color: white;
+            text-decoration: none;
+            margin: 15px;
+        }
+
+        section {
+            padding: 40px 20px;
+        }
+
+        footer {
+            background: #333;
+            color: white;
+            padding: 15px;
+        }
+
+        button {
+            background: #007bff;
+            color: white;
+            border: none;
+            padding: 10px 20px;
+            cursor: pointer;
+        }
+
+        button:hover {
+            background: #0056b3;
+        }
+    </style>
+</head>
+<body>
+
+    <header>
+        <h1>میری ویب سائٹ میں خوش آمدید</h1>
+        <p>ایک سادہ اور خوبصورت ویب سائٹ</p>
+    </header>
+
+    <nav>
+        <a href="#home">ہوم</a>
+        <a href="#about">ہمارے بارے میں</a>
+        <a href="#contact">رابطہ</a>
+    </nav>
+
+    <section id="home">
+        <h2>ہوم</h2>
+        <p>یہ میری پہلی مکمل ویب سائٹ ہے۔</p>
+        <button onclick="showMessage()">کلک کریں</button>
+    </section>
+
+    <section id="about">
+        <h2>ہمارے بارے میں</h2>
+        <p>ہم ویب ڈویلپمنٹ سیکھ رہے ہیں۔</p>
+    </section>
+
+    <section id="contact">
+        <h2>رابطہ</h2>
+        <p>Email: example@email.com</p>
+    </section>
+
+    <footer>
+        <p>© 2026 میری ویب سائٹ</p>
+    </footer>
+
+    <script>
+        function showMessage() {
+            alert("آپ کا شکریہ!");
+        }
+    </script>
+
+</body>
+</html>
